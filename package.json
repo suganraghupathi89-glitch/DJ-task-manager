@@ -1,0 +1,20 @@
+{
+  "name": "dj-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "fonts": "node scripts/fonts.js",
+    "sync": "npm run fonts && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/local-notifications": "^6.0.0",
+    "@fontsource/caveat": "^5.0.0",
+    "@fontsource/hanken-grotesk": "^5.0.0",
+    "@fontsource/newsreader": "^5.0.0",
+    "@fontsource/nunito": "^5.0.0",
+    "@fontsource/space-mono": "^5.0.0"
+  }
+}
